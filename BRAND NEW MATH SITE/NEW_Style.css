@@ -4,11 +4,11 @@ html{
 
 @font-face {
   		font-family: "Inter";
-  		src: url("Inter-VariableFont_slnt,wght.ttf");
+  		src: url("Assets/Inter-VariableFont_slnt,wght.ttf");
 			}
 @font-face{
 	font-family: "Alice";
-  	src: url("Alice-Regular.ttf");
+  	src: url("Assets/Alice-Regular.ttf");
 }			
 .header_box{
 	margin-right: 100px;
@@ -52,7 +52,7 @@ html{
 .bg_img{
 	padding-top: 10px;
 	height: 620px;
-	background-image: url("kosmosfon6.jpg");
+	background-image: url("Assets/kosmosfon6.jpg");
 }
 body{
 	margin: 0px;
