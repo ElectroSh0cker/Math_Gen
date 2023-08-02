@@ -11,8 +11,6 @@ html{
   	src: url("Assets/Alice-Regular.ttf");
 }			
 .header_box{
-	margin-right: 100px;
-	margin-left: 100px;
 	margin-top: 10px;
 	height: 50px;
 	background-color: #23272a;
@@ -21,7 +19,8 @@ html{
 	color: white;
 	align-items: center;
 	position: fixed;
-	width: 1150px;
+	left: 100px;
+	right: 100px;
 	z-index: 99;
 }
 .item{
@@ -309,21 +308,26 @@ body{
 	align-items: center;
 	text-align: center;
 }
-.email{
-	margin-left: 200px;
+.s_media_wraper{	
+	display: flex;
+	flex-direction: column;	
 	margin-top: 70px;
-}
-.s_media_wraper{
-	margin-top: 60px;
-	margin-left: 100px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .s_media{
 	width: 56px;
 	height: 56px;
-	margin-left: 30px;
+	margin: 20px;
+	margin-top: 40px;
 }
 .s_media2{
 	width: 80px;
 	height: 56px;
-	margin-left: 30px;
+	margin: 20px;
+	margin-top: 40px;	
+}
+.email{
+	display: flex;
+	justify-content: center;
 }
